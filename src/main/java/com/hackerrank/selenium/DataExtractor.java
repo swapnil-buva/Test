@@ -12,7 +12,7 @@ public class DataExtractor {
 
     public static Map<String, Integer> findTotalCasesByContinent(final WebDriver driver, final String pageUrl) {
       ArrayList<WebElement> continent = new ArrayList<>(driver.findElements(By.xpath("//tr/td[5]")));  
-      System.out.println(continent.size());
+      // System.out.println(continent.size());
       Map<String, Integer> count = new HashMap<String, Integer>();
       return count;
     }
